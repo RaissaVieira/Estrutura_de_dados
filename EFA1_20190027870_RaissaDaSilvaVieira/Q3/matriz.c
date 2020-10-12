@@ -138,3 +138,4 @@ void print_matriz(MATRIZ * mat){
 			printf("\n");
 	}
 }
+

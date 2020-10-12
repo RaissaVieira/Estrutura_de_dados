@@ -204,7 +204,7 @@ int pertence(Conjunto *l1, int v){
 }
 
 int menor(Conjunto *l1){
-    int menor = maior(l1); // Inicia o valor de menor com o maior valor do conjunto
+    int menor = l1->valor; // Inicia o valor de menor com um elemento do conjunto
 
     while (l1 != NULL) // Pecorre o conjunto
     {

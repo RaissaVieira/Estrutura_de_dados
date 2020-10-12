@@ -18,21 +18,23 @@ int main(){
 
     printf("\n");
     printf("%s\n", inserir(&conj1,8) ? "Valor inserido" : "Valor ja existe no conjunto");
-    printf("%s\n", inserir(&conj1,8) ? "Valor inserido" : "Valor ja existe no conjunto");
+    printf("%s\n", inserir(&conj1,-8) ? "Valor inserido" : "Valor ja existe no conjunto");
     printf("%s\n", inserir(&conj1,3) ? "Valor inserido" : "Valor ja existe no conjunto");
     printf("%s\n", inserir(&conj1,6) ? "Valor inserido" : "Valor ja existe no conjunto");
-    printf("%s\n", inserir(&conj1,2) ? "Valor inserido" : "Valor ja existe no conjunto");
+    printf("%s\n", inserir(&conj1,-2) ? "Valor inserido" : "Valor ja existe no conjunto");
     printf("%s\n", inserir(&conj1,9) ? "Valor inserido" : "Valor ja existe no conjunto");
     printf("%s\n", inserir(&conj1,7) ? "Valor inserido" : "Valor ja existe no conjunto");
 
     // Inserindo elementos no conjunto 2
 
     printf("\n");
-    printf("%s\n", inserir(&conj2,1) ? "Valor inserido" : "Valor ja existe no conjunto");
-    printf("%s\n", inserir(&conj2,7) ? "Valor inserido" : "Valor ja existe no conjunto");
-    printf("%s\n", inserir(&conj2,3) ? "Valor inserido" : "Valor ja existe no conjunto");
+    printf("%s\n", inserir(&conj2,8) ? "Valor inserido" : "Valor ja existe no conjunto");
+    printf("%s\n", inserir(&conj2,8) ? "Valor inserido" : "Valor ja existe no conjunto");
+    printf("%s\n", inserir(&conj2,11) ? "Valor inserido" : "Valor ja existe no conjunto");
     printf("%s\n", inserir(&conj2,6) ? "Valor inserido" : "Valor ja existe no conjunto");
-    printf("%s\n", inserir(&conj2,5) ? "Valor inserido" : "Valor ja existe no conjunto");
+    printf("%s\n", inserir(&conj2,-2) ? "Valor inserido" : "Valor ja existe no conjunto");
+    printf("%s\n", inserir(&conj2,19) ? "Valor inserido" : "Valor ja existe no conjunto");
+    printf("%s\n", inserir(&conj2,7) ? "Valor inserido" : "Valor ja existe no conjunto");
     printf("%s\n", inserir(&conj2,11) ? "Valor inserido" : "Valor ja existe no conjunto");
     printf("%s\n", inserir(&conj2,7) ? "Valor inserido" : "Valor ja existe no conjunto");
 
