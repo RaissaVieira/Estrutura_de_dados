@@ -89,7 +89,7 @@ int pilha_size(Pilha* pilha)
 
     ListaNo* elemento=pilha->prim;
 
-    while (elemento != NULL) // Pecorre o conjunto e incrementa o contador
+    while (elemento != NULL) // Pecorre a pilha e incrementa o contador
     {
         counter++; 
         elemento=elemento->prox;
@@ -100,6 +100,10 @@ int pilha_size(Pilha* pilha)
 
 void pilha_print(Pilha* pilha)
 {
+    /*
+        Imprime os elementos da pilha
+    */
+
     for (ListaNo* elemento=pilha->prim; elemento != NULL; elemento=elemento->prox)
         printf("%.2f ",elemento->valor);
 }
